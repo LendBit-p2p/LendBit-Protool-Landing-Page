@@ -1,27 +1,80 @@
+@import url("https://www.behance.net/gallery/90690285/KyivType-variable-superfamily/modules/530943943");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--black-gradient: linear-gradient(
+		144.39deg,
+		#ffffff -278.56%,
+		#6d6d6d -78.47%,
+		#11101d 91.61%
+	);
+	--card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+	scroll-behavior: smooth;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.bg-black-gradient {
+	background: linear-gradient(
+		144.39deg,
+		#ffffff -278.56%,
+		#6d6d6d -78.47%,
+		#11101d 91.61%
+	);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.sidebar {
+	-webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+	animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@keyframes slide-top {
+	0% {
+		-webkit-transform: translateY(100px);
+		transform: translateY(100px);
+	}
+	100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+}
+
+/* .text-gradient {
+	background: radial-gradient(
+		64.18% 64.18% at 71.16% 35.69%,
+		#def9fa 0.89%,
+		#bef3f5 17.23%,
+		#9dedf0 42.04%,
+		#7de7eb 55.12%,
+		#5ce1e6 71.54%,
+		#33bbcf 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+} */
+
+.first__gradient {
+	background: linear-gradient(180deg, #000 0%, #fb8d50 100%);
+	filter: blur(300px);
+}
+
+.second__gradient {
+	background: linear-gradient(180deg, #000 0%, #dd4f00 100%);
+	filter: blur(200px);
+}
+
+.white__gradient {
+	background: rgba(255, 255, 255, 0.6);
+	filter: blur(750px);
+}
+
+.third__gradient {
+	background: linear-gradient(90deg, #2f2f2f 100%, #696969 42.04%);
+	filter: blur(250px);
 }
