@@ -45,21 +45,21 @@ export  const cardData = [
     {
       title: "Lending",
       description: "Earn returns by lending your crypto assets with flexible terms. Choose your interest rates and durations, and put your idle assets to work while maintaining control over your investments.",
-      bg: "bg-[#131317]"
+      bg: "#131317"
     },
     {
       title: "Collateral Management",
       description: "Easily deposit, monitor, and manage your collateral for secure borrowing. Track your collateral health in real-time, adjust your deposits as needed, and ensure your assets are always optimally utilized.",
-      bg: "bg-[#22242F]"
+      bg: "#22242F"
     },
     {
       title: "Marketplace Access",
       description: "Explore and connect with lending and borrowing opportunities tailored to your needs. Browse a wide range of orders, filter by rates and terms, and engage directly with peers to find the perfect match for your financial goals.",
-      bg: "bg-[#22242F]"
+      bg: "#22242F"
     },
     {
       title: "Borrowing",
       description: "Secure the funds you need by borrowing against your crypto collateral. Enjoy competitive rates and flexible repayment options, empowering you to access liquidity without selling your assets.",
-      bg: "bg-[#131317]"
+      bg: "#131317"
     },
   ];

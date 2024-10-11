@@ -32,7 +32,8 @@ const CardDetails = () => {
         {cardData.map((card, index) => (
           <div
             key={index}
-            className={`p-6 lg:px-8 rounded-xl shadow-lg ${card.bg}`}
+            className={`p-6 lg:px-8 rounded-xl shadow-lg`}
+             style={{ backgroundColor: card.bg }}
           >
             <h2 className='font-light text-[24px] leading-6 text-[#F4F4F6]'>{card.title}</h2>
             <p className='mb-4 mt-6'>{card.description}</p>
