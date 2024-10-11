@@ -60,21 +60,41 @@
 } */
 
 .first__gradient {
-	background: linear-gradient(180deg, #000 0%, #fb8d50 100%);
+	background: #fb8d50;
 	filter: blur(300px);
 }
 
 .second__gradient {
-	background: linear-gradient(180deg, #000 0%, #dd4f00 100%);
+	background: #dd4f00;
 	filter: blur(200px);
 }
 
-.white__gradient {
-	background: rgba(255, 255, 255, 0.6);
-	filter: blur(750px);
+.black__gradient {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), transparent);
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10;
+}
+
+.black__gradient2 {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0));
+	position: absolute;
+	left: 0;
+	right: 0;
+	z-index: 10;
 }
 
 .third__gradient {
-	background: linear-gradient(90deg, #2f2f2f 100%, #696969 42.04%);
+	background: linear-gradient(360deg, #2f2f2f 100%, #696969 100%);
 	filter: blur(250px);
+}
+
+.scrollbar-hide {
+	overflow: -moz-scrollbars-none; /* Firefox */
+	scrollbar-width: none; /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, and Opera */
 }
