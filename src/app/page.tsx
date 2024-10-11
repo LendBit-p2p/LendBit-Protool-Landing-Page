@@ -3,6 +3,9 @@ import Discover from "@/components/Discover";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import SquareCards from "@/components/SquareCards";
+import HowToBuy from "@/components/HowToBuy";
+import MarketSection from "@/components/MarketSection";
+import FinalSection from "@/components/FinalSection";
 
 export default function Home() {
  
@@ -46,6 +49,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <HowToBuy />
+
+      <MarketSection />
+
+      <FinalSection />
     </div>
   );
 }

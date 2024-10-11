@@ -7,7 +7,7 @@ const CardDetails = () => {
     return (
     <div className='sm:py-16 py-6 bg-black'>
       <div>
-        <div className='flex justify-between items-end'>
+        <div className='flex flex-wrap justify-between items-end gap-4'>
           <h1 className='font-bold font-KyivType text-[48px] leading-[48px] w-[660px]'>
             <span className='text-[#FF4D00]'>Simplify</span>Your Crypto Lending and Borrowing
           </h1>
@@ -22,7 +22,7 @@ const CardDetails = () => {
 
         <div className='rounded-3xl text-[#B44000] border-white border-[2px] my-6 w-fit py-2'>
           <a href='https://app.lendbit.finance/' className='px-4'>
-            Deposit Collateral
+            Deposit Collateral _>
           </a>
         </div>
       </div>
