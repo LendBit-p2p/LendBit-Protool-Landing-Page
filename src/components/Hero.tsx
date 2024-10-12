@@ -38,7 +38,7 @@ const Hero = () => {
 
       {/* Right section: Image */}
       <div className="flex-1 flex justify-center items-center md:my-0 my-10 relative z-10">
-        <img src="/LandingPageAsset.svg" alt="Defi platform logo" className="w-full h-full relative z-[5]" />
+        <img src="/gifs/banner.gif" alt="Defi platform logo" className="w-full h-full relative z-[5]" />
       </div>
     </section>
   );

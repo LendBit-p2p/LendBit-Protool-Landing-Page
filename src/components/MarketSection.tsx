@@ -24,9 +24,9 @@ const MarketSection: React.FC = () => {
                </a>
             </button>
 
-            <div className="absolute top-0 md:top-6 right-0 w-32 h-32 sm:w-48 sm:h-48">
+            <div className="absolute top-0 md:top-6 right-0 w-32 h-32 sm:w-48 md:w-[20rem] sm:h-48 z-10">
                 <Image
-                    src="/Switch.png"
+                    src="/gifs/Switch.gif"
                     alt="Second Image"
                     width={300}
                     height={128}
@@ -34,9 +34,9 @@ const MarketSection: React.FC = () => {
                 />
             </div>
 
-            <div className="absolute md:top-24 lgg:top-28 top-10 left-0 w-32 h-32 sm:w-48 md:w-[16rem] sm:h-48 z-10">
+            <div className="absolute md:top-24 lgg:top-28 top-10 left-0 w-32 h-32 sm:w-48 md:w-[20rem] sm:h-48 z-10">
                 <Image
-                    src="/AssetSelector.png"
+                    src="/gifs/Assetselector.gif"
                     alt="First Image"
                     width={300}
                     height={128}
