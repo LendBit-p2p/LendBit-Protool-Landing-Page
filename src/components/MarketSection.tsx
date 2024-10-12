@@ -26,7 +26,11 @@ const MarketSection: React.FC = () => {
 
             <div className="absolute top-0 md:top-6 right-0 w-32 h-32 sm:w-48 sm:h-48">
                 <Image
+<<<<<<< Updated upstream
                     src="/Switch.png"
+=======
+                    src="/gifs/Switch2.gif"
+>>>>>>> Stashed changes
                     alt="Second Image"
                     width={300}
                     height={128}
@@ -36,7 +40,11 @@ const MarketSection: React.FC = () => {
 
             <div className="absolute md:top-24 lgg:top-28 top-10 left-0 w-32 h-32 sm:w-48 md:w-[16rem] sm:h-48 z-10">
                 <Image
+<<<<<<< Updated upstream
                     src="/AssetSelector.png"
+=======
+                    src="/gifs/Assetselector2.gif"
+>>>>>>> Stashed changes
                     alt="First Image"
                     width={300}
                     height={128}
