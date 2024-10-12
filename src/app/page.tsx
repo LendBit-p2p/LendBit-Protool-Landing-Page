@@ -23,7 +23,7 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="hidden lg:block absolute w-full top-[10%] h-[559px] z-10 black__gradient" />
+        <div className="hidden lg:block absolute w-full top-[4%] h-[700px] lgg:h-[750px] z-10 black__gradient" />
         <div className="md:max-w-[94%] m-auto relative">
         <div className="px-6 flex justify-center items-start">
           <div className="xl:max-w-[1440px] w-full">

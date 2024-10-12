@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section id="home" className="flex flex-col md:flex-row sm:py-16 py-6">
       {/* Left section: Heading and text */}
-      <div className="flex-1 flex flex-col justify-center xl:px-0 sm:pr-16 z-50">
+      <div className="flex-1 flex flex-col justify-center xl:px-0 sm:pr-16 z-10">
         <h1 className="font-KyivType font-bold text-white ss:text-[65px] text-[42px] ss:leading-[72px] leading-[50px]">
           Your Defi Gateway
           <br className="xs:block hidden" />
@@ -15,8 +15,8 @@ const Hero = () => {
           Access funds or earn returns easily with our peer-to-peer platform. Lend or borrow securely, all in one place.
         </p>
 
-        <div className="black__gradien h-fit">
-          <div className="flex items-center gap-2 sm:gap-8 font-medium text-xs ss:text-sm sm:mt-12 mt-8t">
+        <div className="">
+          <div className="flex items-center gap-2 sm:gap-8 font-medium text-xs ss:text-sm sm:mt-12 mt-8">
           <div className="text-[#C74A04] border-l-2 border-[#C74A04] pl-5">
             <p>
               Explore the world of possibilities
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       {/* Right section: Image */}
-      <div className="flex-1 flex justify-center items-center md:my-0 my-10 relative z-50">
+      <div className="flex-1 flex justify-center items-center md:my-0 my-10 relative z-10">
         <img src="/LandingPageAsset.svg" alt="Defi platform logo" className="w-full h-full relative z-[5]" />
       </div>
     </section>

@@ -44,7 +44,7 @@ const SquareCards = () => {
           </div>
         </div>
         {/* Gradient with lower z-index */}
-        <div className="absolute w-full bottom-0 h-80 black__gradient2 z-10" /> {/* Lower z-index */}
+        <div className="absolute w-full bottom-0 h-80 black__gradient2 z-10" />
       </div>
     </div>
   );
