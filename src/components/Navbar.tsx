@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 justify-between items-center">
       {/* Logo Section */}
       <div className="flex items-center gap-2">
         <img src="/logo.png" alt="App Logo" className="w-12 h-10" />
@@ -44,7 +44,7 @@ const Navbar = () => {
         />
 
         {toggle && (
-          <div className="p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+          <div className="p-6 bg-black-gradient absolute top-20 z-50 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
             <ul className="flex flex-col items-start gap-4">
               {navLinks.map((nav) => (
                 <li key={nav.id}>

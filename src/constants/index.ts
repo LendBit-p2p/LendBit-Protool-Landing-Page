@@ -38,7 +38,12 @@ export const cards = [
       image: "/health.svg",
       title: "Health Factor",
       description: "Keep track of your portfolio safety",
-    },
+  },
+  {
+    image: "/graph.svg",
+    title: "Portfolio Management",
+    description: "Deposit, monitor and manage",
+  }
 ];
   
 export  const cardData = [

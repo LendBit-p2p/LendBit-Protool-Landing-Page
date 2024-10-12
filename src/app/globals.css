@@ -70,7 +70,13 @@
 }
 
 .black__gradient {
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.8), transparent);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 1),
+		rgba(0, 0, 0, 0.6) 70%,
+		rgba(0, 0, 0, 0.1) 90%,
+		rgba(0, 0, 0, 0) 100%
+	);
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -82,7 +88,6 @@
 	position: absolute;
 	left: 0;
 	right: 0;
-	z-index: 10;
 }
 
 .third__gradient {
@@ -97,4 +102,12 @@
 
 .scrollbar-hide::-webkit-scrollbar {
 	display: none; /* Chrome, Safari, and Opera */
+}
+
+.u-class-shadow {
+	box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px,
+		rgba(255, 255, 255, 0.12) 0px -12px 30px,
+		rgba(255, 255, 255, 0.12) 0px 4px 6px,
+		rgba(255, 255, 255, 0.17) 0px 12px 13px,
+		rgba(255, 255, 255, 0.09) 0px -3px 5px;
 }
