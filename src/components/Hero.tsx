@@ -8,20 +8,20 @@ const Hero = () => {
           <br className="xs:block hidden" />
           <span className="text-gradient">to peer-to-peer</span>
           <br className="sm:block hidden" />
-          lending & borrowing
+          & Liquidity Pool lending
         </h1>
 
         <p className="font-normal text-[#898CA9] ss:text-base text-[15px] ss:leading-[24px] max-w-[510px] sm:mt-10 mt-7">
-          Access funds or earn returns easily with our peer-to-peer platform. Lend or borrow securely, all in one place.
+          Access funds or earn returns easily with our integrated lending platform. Choose between direct peer-to-peer agreements or instant liquidity pools — all in one place.
         </p>
 
         <div className="">
           <div className="flex items-center gap-2 sm:gap-8 font-medium text-xs ss:text-sm sm:mt-12 mt-8">
           <div className="text-[#C74A04] border-l-2 border-[#C74A04] pl-5">
             <p>
-              Explore the world of possibilities
+              Explore the world of possibilities with
               <br className="xs:block hidden" />
-              through access to flexible liquidity.
+              flexible liquidity options tailored to your needs.
             </p>
           </div>
           <a

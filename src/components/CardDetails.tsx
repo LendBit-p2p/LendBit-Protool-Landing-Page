@@ -13,7 +13,7 @@ const CardDetails = () => {
           </h1>
 
           <div className='flex gap-4 text-sm items-center'>
-            <img src='/logo.png' alt='App Logo' className='w-8 h-8' />
+            <img src='/logo.png' alt='App Logo' className='w-10 h-8' />
             <p className='text-[#C8C9D0] max-w-[300px]'>
               Effortless Crypto Lending and Borrowing Unlock DeFi Opportunities with Ease
             </p>
