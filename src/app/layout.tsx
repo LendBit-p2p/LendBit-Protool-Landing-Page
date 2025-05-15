@@ -16,10 +16,11 @@ import "./globals.css";
 // });
 
 export const metadata: Metadata = {
-  title: "Lendbit | P2P Lending",
-  description: "Lendbit, Your gateway to seamless peer-to-peer crypto lending & borrowing. Secure, transparent, and flexible. Unlock the full potential of your digital assets.",
-  icons: "./favicon.ico"
+    title: "Lendbit | DeFi Lending Reinvented",
+    description: "Lendbit is your gateway to seamless peer-to-peer and liquidity pool lending on Base. Secure, transparent, and flexible — unlocking the full potential of your crypto assets with Superchain-ready infrastructure.",
+    icons: "./favicon.ico"
 };
+
 
 const inter = Inter({
   weight: ['100', '200', '300','400','500', '600', '700', '800', '900'],  
