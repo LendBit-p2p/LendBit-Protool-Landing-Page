@@ -7,7 +7,7 @@ const Discover = () => {
             </h1>
 
             <a 
-                href="https://app.lendbit.finance/marketplace"
+                href="https://app.lendbit.finance/markets"
                 target="_blank"
                 rel="noopener noreferrer"
                   className="border border-white rounded-3xl px-4 py-2 flex-shrink-0 z-10"
