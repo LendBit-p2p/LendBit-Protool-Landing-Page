@@ -18,7 +18,7 @@ import "./globals.css";
 export const metadata: Metadata = {
     title: "Lendbit | DeFi Lending Reinvented",
     description: "Lendbit is your gateway to seamless peer-to-peer and liquidity pool lending on Base. Secure, transparent, and flexible — unlocking the full potential of your crypto assets with Superchain-ready infrastructure.",
-    icons: "./favicon.ico"
+    icons: "./favicon.svg"
 };
 
 

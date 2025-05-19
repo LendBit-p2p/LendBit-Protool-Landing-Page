@@ -2,8 +2,8 @@
 
 export const navLinks = [
   {
-    id: "https://docs.lendbit.finance/",
-    title: "Docs",
+    id: "https://faucets.lendbit.finance/",
+    title: "Get Faucets",
   },
   {
     id: "https://app.lendbit.finance/",
